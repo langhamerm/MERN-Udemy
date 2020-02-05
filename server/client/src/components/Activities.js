@@ -7,13 +7,17 @@ import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import ListGroup from "react-bootstrap/ListGroup";
-import Example from "./Example";
+// import ControlledCarousel from "./ControlledCarousel";
+import Iframe from "./Iframe";
+import Decks from "./Decks";
+
+function slideSend() {
+  window.location.href = "/slides";
+}
 
 class Activities extends Component {
-    
-  render() {
-      
-    console.log(this.props);
+  render(props) {
+    // console.log(this.props);
 
     return (
       <Accordion>
@@ -29,16 +33,20 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">Exercises</a>
+                      <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                        Exercises
+                      </a>
+                    </ListGroup.Item>
+                    <ListGroup.Item style={{textAlign: 'center', padding: '0'}}>
+                    <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <Example src="https://www.youtube.com/watch?v=RgtcsBZ_gWs"/>
+                      <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/homework%20assignments/01-week">
+                        Homework
+                      </a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/homework%20assignments/01-week">Homework</a>
-                    </ListGroup.Item>
-                    <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                     <Decks text="View Lesson"/>
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -56,16 +64,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks text="View this Lesson"/>
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -83,16 +91,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -110,16 +118,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -139,16 +147,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -166,16 +174,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -193,16 +201,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -220,16 +228,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -250,16 +258,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -277,16 +285,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -304,16 +312,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -331,16 +339,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -360,16 +368,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -387,16 +395,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -414,16 +422,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -441,16 +449,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -471,16 +479,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -498,16 +506,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -525,16 +533,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -552,16 +560,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -581,16 +589,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -608,16 +616,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -635,16 +643,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>
@@ -662,16 +670,16 @@ class Activities extends Component {
                 <Card.Body>
                   <ListGroup>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Exercises</a>
+                      <a href="https://www.google.com">Exercises</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                     <Example />
+                      <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
                     </ListGroup.Item>
                     <ListGroup.Item>
-                        <a href="https://www.google.com">Homework</a>
+                      <a href="https://www.google.com">Homework</a>
                     </ListGroup.Item>
                     <ListGroup.Item>
-                      <Button variant="success">Lessons</Button>
+                      <Decks />
                     </ListGroup.Item>
                   </ListGroup>
                 </Card.Body>

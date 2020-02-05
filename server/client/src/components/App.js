@@ -7,6 +7,7 @@ import Container from "react-bootstrap/Container";
 import Header from "./Header";
 import Landing from "./Landing";
 import Activities from "./Activities";
+import ControlledCarousel from "./ControlledCarousel";
 
 // const Dashboard = () => <h2>Dashboard</h2>;
 // const SurveyNew = () => <h2>SurveyNew</h2>;
@@ -25,8 +26,8 @@ class App extends Component {
                 <Header />
                 <Route exact path="/" component={Landing} />
                 <Route exact path="/activities" component={Activities} />
-                {/* <Route exact path="/surveys" component={Dashboard} />
-            <Route path="/surveys/new" component={SurveyNew} /> */}
+                <Route exact path="/slides" component={ControlledCarousel} />
+            {/* <Route path="/surveys/new" component={SurveyNew} /> */}
               </div>
             </BrowserRouter>
           </Container>

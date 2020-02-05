@@ -1,30 +1,30 @@
 import React from "react";
 import Container from "react-bootstrap/Container";
 
+import { connect } from "react-redux";
 
 // console.log(this);
 
-class Iframe extends React.Component {
-
-   findSrc =(video) => {
-        console.log(video);
-    }
- 
-render() {
+function Iframe(props) {
     
     return (
       <Container>
         <iframe
-        id="vid"
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/RgtcsBZ_gWs"
-          frameborder="0"
+        title='vid'
+          width="200px"
+          height="250px"
+          src={props.src}
+          frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
+          allowFullScreen
         ></iframe>
       </Container>
-    )}
+    )
   }
 
-export default Iframe;
+// export default Iframe;
+function mapStateToProps({ auth }) {
+  return { auth };
+}
+
+export default connect(mapStateToProps)(Iframe);

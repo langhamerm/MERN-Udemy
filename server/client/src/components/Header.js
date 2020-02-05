@@ -38,10 +38,10 @@ class Header extends Component {
               <Link to={"/homework"}>Homework</Link>
             </li>
             <li>
-              <Link to={"lessons"}>Lessons</Link>
+              <Link to={"/slides"}>Lessons</Link>
             </li>
             <li>
-              <Link to={"projects"}>Projects</Link>
+              <Link to={"/projects"}>Projects</Link>
             </li>
             <li>
               <a href="/api/logout">Logout</a>

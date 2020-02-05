@@ -1,14 +1,19 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-import Iframe from "./Iframe";
-import Container from "react-bootstrap/Container";
+
+// import Container from "react-bootstrap/Container";
 function Example(props) {
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-
+  // console.log(props);
+  // console.log(this);
+  const findSrc = (video) => {
+    console.log(video);
+    return video;
+  }
   return (
     <>
       <Button variant="primary" onClick={handleShow}>
@@ -20,9 +25,9 @@ function Example(props) {
           <Modal.Title>Modal heading</Modal.Title>
         </Modal.Header>
         <Modal.Body>
-          <Container>
-                <Iframe />
-          </Container>
+        <Button variant="success" onClick={findSrc(props)}>
+        Find Src
+      </Button>
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>

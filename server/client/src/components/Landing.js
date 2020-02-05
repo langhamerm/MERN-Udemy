@@ -29,6 +29,7 @@ class Landing extends Component {
         {this.renderContent()}
         <img 
         src={logo} 
+        alt={"persevere"}
         style={{ 
           textAlign: 'center',
           height: "100%",

@@ -1,8 +1,18 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-// import Landing from './Landing';
+import Activities from "./Activities";
+
+
+ const renderActivities = () => {
+    return <Activities activity="Console Commands"/>;
+    
+  }
+
 class Header extends Component {
+
+  
+
   renderContent() {
     switch (this.props.auth) {
       case null:
@@ -17,7 +27,12 @@ class Header extends Component {
         return (
           <ul id="nav-mobile" className="right">
             <li>
-              <Link to={"/activites"}>Activities</Link>
+              <Link
+               to={"/activities"}
+               onClick={renderActivities}
+               >
+                 Activities
+                 </Link>
             </li>
             <li>
               <Link to={"/homework"}>Homework</Link>
@@ -43,7 +58,7 @@ class Header extends Component {
       <nav className="cyan accent-3">
         <div className="nav-wrapper">
           <Link
-            to={this.props.auth ? "/surveys" : "/"}
+            to={"/"}
             className="left brand-logo"
           >
             Persevere Code Camp

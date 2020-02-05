@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
-
+// import Landing from './Landing';
 class Header extends Component {
   renderContent() {
     switch (this.props.auth) {
@@ -15,26 +15,41 @@ class Header extends Component {
         );
       default:
         return (
-          <li>
-            <a href="/api/logout">Logout</a>
-          </li>
+          <ul id="nav-mobile" className="right">
+            <li>
+              <Link to={"/activites"}>Activities</Link>
+            </li>
+            <li>
+              <Link to={"/homework"}>Homework</Link>
+            </li>
+            <li>
+              <Link to={"lessons"}>Lessons</Link>
+            </li>
+            <li>
+              <Link to={"projects"}>Projects</Link>
+            </li>
+            <li>
+              <a href="/api/logout">Logout</a>
+            </li>
+          </ul>
         );
     }
   }
 
   render() {
-    // console.log(this.props);
+    console.log(this.props);
+
     return (
-      <nav>
+      <nav className="cyan accent-3">
         <div className="nav-wrapper">
           <Link
-           to={this.props.auth ? '/surveys' : '/'} 
-           className="left brand-logo">
-            PCC
+            to={this.props.auth ? "/surveys" : "/"}
+            className="left brand-logo"
+          >
+            Persevere Code Camp
           </Link>
-          <ul id="nav-mobile" className="right">
-            {this.renderContent()}
-          </ul>
+
+          {this.renderContent()}
         </div>
       </nav>
     );

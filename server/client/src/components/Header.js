@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import Activities from "./Activities";
-
+import Payments from './Payments';
 
  const renderActivities = () => {
     return <Activities activity="Console Commands"/>;
@@ -20,7 +20,7 @@ class Header extends Component {
       case false:
         return (
           <li>
-            <a href="/auth/google">Login With Google</a>
+            <a id="pcc" href="/auth/google">Login With Google</a>
           </li>
         );
       default:
@@ -31,20 +31,16 @@ class Header extends Component {
                to={"/activities"}
                onClick={renderActivities}
                >
-                 Activities
+                 Curriculum
                  </Link>
             </li>
-            <li>
-              <Link to={"/homework"}>Homework</Link>
-            </li>
-            <li>
-              <Link to={"/slides"}>Lessons</Link>
-            </li>
-            <li>
-              <Link to={"/projects"}>Projects</Link>
-            </li>
+            
             <li>
               <a href="/api/logout">Logout</a>
+            </li>
+            <li><Payments /></li>
+            <li>
+              Credits: {this.props.auth.credits}
             </li>
           </ul>
         );

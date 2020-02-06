@@ -8,14 +8,14 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import ListGroup from "react-bootstrap/ListGroup";
 // import ControlledCarousel from "./ControlledCarousel";
-import Iframe from "./Iframe";
-import Decks from "./Decks";
-import Badge from "react-bootstrap/Badge";
+// import Iframe from "./Iframe";
+// import Decks from "./Decks";
+// import Badge from "react-bootstrap/Badge";
 import Container from "react-bootstrap/Container";
 import { Link } from "react-router-dom";
-function slideSend() {
-  window.location.href = "/slides";
-}
+// function slideSend() {
+//   window.location.href = "/slides";
+// }
 
 class Activities extends Component {
   render(props) {
@@ -36,13 +36,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <Link to="/exercises">
-                          Exercises
-                        </Link>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -75,14 +77,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
-
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -115,13 +118,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -157,13 +162,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -197,13 +204,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -235,14 +244,16 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="4">
                   <Card.Body>
                     <ListGroup>
-                    <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                      <ListGroup.Item>
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -276,14 +287,16 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="5">
                   <Card.Body>
                     <ListGroup>
-                    <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                      <ListGroup.Item>
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -316,13 +329,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -356,13 +371,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -397,13 +414,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -436,13 +455,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -475,13 +496,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -516,13 +539,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -555,13 +580,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -594,13 +621,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -635,13 +664,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -675,13 +706,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -714,13 +747,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -755,13 +790,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -794,13 +831,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -834,13 +873,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -875,13 +916,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -914,13 +957,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -953,13 +998,15 @@ class Activities extends Component {
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>
-                        <Iframe src="https://www.youtube.com/embed/M-j159LFwGw" />
+                        <h4>
+                          <Link to="/videos">Videos</Link>
+                        </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
-                      <h4>
-                        <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
-                          Exercises
-                        </a>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                            Exercises
+                          </a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>

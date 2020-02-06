@@ -7,6 +7,10 @@ const userSchema = new Schema({
   lastName: String,
   email: String,
   photo: String,
+  credits: {
+    type: Number,
+    default: 0
+  },
   activities: {
     week_1: {
       github_url: String,

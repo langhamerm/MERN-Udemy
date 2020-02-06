@@ -1,11 +1,12 @@
-import React, { Component } from "react";
+import React from "react";
 // import { Link } from "react-router-dom";
-import { Col, Row, Container } from "./Grid";
+import { Row, Container } from "./Grid";
 import { List, ListItem } from "./List";
 // import { Input, TextArea, FormBtn } from "./Form";
 import Jumbotron from "./Jumbotron";
 
-const WEEK1_1 = () => {
+class WEEK1_1 extends React.Component {
+  render() {
     return (
       <Container>
         <Jumbotron>
@@ -124,6 +125,6 @@ const WEEK1_1 = () => {
           </List>
         </Row>
       </Container>
-    );
+    )}
   }
 export default WEEK1_1;

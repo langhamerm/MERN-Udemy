@@ -7,6 +7,7 @@ import Header from "./Header";
 import Landing from "./Landing";
 import Activities from "./Activities";
 import ControlledCarousel from "./ControlledCarousel";
+import Videos from './Videos';
 
 // const Dashboard = () => <h2>Dashboard</h2>;
 // const SurveyNew = () => <h2>SurveyNew</h2>;
@@ -18,14 +19,21 @@ class App extends Component {
 
   render() {
     return (
+      
       <BrowserRouter>
+  
         <Header />
+  
+        {/* <Exercises /> */}
         <Route exact path="/" component={Landing} />
         <Route exact path="/activities" component={Activities} />
         <Route exact path="/slides" component={ControlledCarousel} />
-        <Route path="/exercises" component={Exercises} />
+        <Route exact path="/exercises" component={Exercises} />
+        <Route exact path="/videos" component={Videos} />
       </BrowserRouter>
+      
     );
+    
   }
 }
 

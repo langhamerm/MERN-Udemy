@@ -50,3 +50,6 @@ iframe {
 .primary {
     width: 4em !important;
 }
+nav a {
+    float: right;
+}

@@ -1,0 +1,52 @@
+* {
+    margin: 0 auto !important;
+    padding: 0 auto !important;
+}
+
+.btn-link {
+    width: 16em;
+}
+
+nav {
+    overflow: auto;
+}
+
+.card {
+  width: 95% !important;
+  padding-bottom: 10% !important;
+  display: flex !important;
+  /* position: relative !important; */
+  flex-direction: column !important;
+}
+.card-deck {
+    width: 50% !important;
+    position: absolute !important;
+    left: -3em !important;
+}
+
+span.badge {
+    text-align: center !important;
+    float: none !important;
+}
+
+iframe {
+    text-align: center !important;
+}
+.card-body {
+    width: 110% !important;
+    margin-right: 25% !important;
+    position: relative !important;
+    right: 5px;
+}
+.card-header {
+    padding: 0 !important;
+}
+.list-group-item {
+    position: relative;
+    width: 125% !important;
+    text-align: center !important;
+    right: 2.5em !important;
+}
+.primary {
+    width: 4em !important;
+}

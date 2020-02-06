@@ -2,13 +2,13 @@ import React from "react";
 // import { BrowserRouter, Route } from "react-router-dom";
 import { connect } from "react-redux";
 // import * as actions from "../actions";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 import Carousel from "react-bootstrap/Carousel";
 
 class ControlledCarousel extends React.Component {
   render() {
     return (
-      <Container>
+      
         <Carousel>
           <Carousel.Item>
             <img
@@ -48,7 +48,7 @@ class ControlledCarousel extends React.Component {
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
-      </Container>
+    
     );
   }
 }

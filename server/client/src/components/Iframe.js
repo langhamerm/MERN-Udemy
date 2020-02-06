@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
+// import Container from "react-bootstrap/Container";
 
 import { connect } from "react-redux";
 
@@ -8,17 +8,17 @@ import { connect } from "react-redux";
 function Iframe(props) {
     
     return (
-      <Container>
+  
         <iframe
         title='vid'
-          width="200px"
-          height="250px"
+          width="90% !important" 
+          height="75% !important"
           src={props.src}
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
           allowFullScreen
         ></iframe>
-      </Container>
+ 
     )
   }
 

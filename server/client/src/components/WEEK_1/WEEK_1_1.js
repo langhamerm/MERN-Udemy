@@ -1,7 +1,7 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+// import Container from "react-bootstrap/Container";
+// import Row from "react-bootstrap/Row";
 import { List, ListItem } from "../List";
 // import { Input, TextArea, FormBtn } from "./Form";
 import Jumbotron from "../Jumbotron";

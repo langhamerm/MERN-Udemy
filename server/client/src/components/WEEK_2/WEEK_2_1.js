@@ -4,7 +4,7 @@ import React from "react";
 // import { List, ListItem } from "./List";
 // import { TextArea, FormBtn } from "./Form";
 import Jumbotron from "../Jumbotron";
-import Codepen from "../Codepen";
+// import Codepen from "../Codepen";
 import dev from "../../images/dev.png";
 const WEEK_2_1 = () => {
   return (

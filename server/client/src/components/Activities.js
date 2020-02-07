@@ -49,7 +49,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/homework%20assignments/01-week">
+                          <a href="/week1/hw">
                             Homework
                           </a>
                         </h4>

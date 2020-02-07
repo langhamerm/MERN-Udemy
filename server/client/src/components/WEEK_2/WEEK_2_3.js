@@ -5,7 +5,7 @@ import React from "react";
 // import { TextArea, FormBtn } from "./Form";
 import Jumbotron from "../Jumbotron";
 import Codepen from "../Codepen";
-import dev from "../../images/dev.png";
+// import dev from "../../images/dev.png";
 import { Link } from "react-router-dom";
 const WEEK_2_3 = () => {
   return (
@@ -20,7 +20,7 @@ const WEEK_2_3 = () => {
         
       </Jumbotron>
     
-      {/* <img id="demo" src={dev}></img> */}
+     
       <Codepen
         src={
           "https://codepen.io/langhamerm/embed/BaNaewg?height=265&theme-id=dark&default-tab=html,result&editable=true"

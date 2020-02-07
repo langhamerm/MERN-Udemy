@@ -1,9 +1,9 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
+// import Container from "react-bootstrap/Container";
+// import Row from "react-bootstrap/Row";
 import { List, ListItem } from "../List";
-import { TextArea, FormBtn } from "../Form";
+// import { TextArea, FormBtn } from "../Form";
 import Jumbotron from "../Jumbotron";
 import Codepen from '../Codepen';
 const WEEK_1_2 = () => {

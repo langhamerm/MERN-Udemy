@@ -1,22 +1,23 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import { Row, Container } from "./Grid";
-import { List, ListItem } from "./List";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import { List, ListItem } from "../List";
 // import { Input, TextArea, FormBtn } from "./Form";
-import Jumbotron from "./Jumbotron";
+import Jumbotron from "../Jumbotron";
 
-class WEEK1_1 extends React.Component {
+class WEEK_1_1 extends React.Component {
   render() {
     return (
-      <Container>
+      <div>
         <Jumbotron>
           <h1 id="ex-title">Bash / Terminal Commands</h1>
-          <p>
+          <p style={{ fontSize: '2em'}}>
             These are the basic commands for navigating directories in a
             Terminal or Git Bash window
           </p>
         </Jumbotron>
-        <Row>
+        
           <List>
             <strong>
               <ListItem>Change Directory</ListItem>
@@ -83,9 +84,9 @@ class WEEK1_1 extends React.Component {
             </strong>
             <ListItem>`mv [filename1] [filename2]`</ListItem>
           </List>
-        </Row>
+     
 
-        <Row>
+        
           <h3>Mac Only</h3>
 
           <List>
@@ -103,9 +104,9 @@ class WEEK1_1 extends React.Component {
 
             <ListItem> `open .</ListItem>
           </List>
-        </Row>
+       
 
-        <Row>
+        
           <h3>PC Only</h3>
 
           <List>
@@ -123,8 +124,8 @@ class WEEK1_1 extends React.Component {
 
             <ListItem> `explorer .` `open .</ListItem>
           </List>
-        </Row>
-      </Container>
+       
+      </div>
     )}
   }
-export default WEEK1_1;
+export default WEEK_1_1;

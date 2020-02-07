@@ -11,8 +11,8 @@ function Iframe(props) {
   
         <iframe
         title='vid'
-          width="90% !important" 
-          height="75% !important"
+          width="100% !important" 
+          height="100% !important"
           src={props.src}
           frameBorder="0"
           allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"

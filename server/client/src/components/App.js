@@ -3,6 +3,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 import { connect } from "react-redux";
 import * as actions from "../actions";
 import Week1 from '../pages/Week1';
+import Week2 from '../pages/Week2';
 import Header from "./Header";
 import Landing from "./Landing";
 import Activities from "./Activities";
@@ -29,6 +30,7 @@ class App extends Component {
         <Route exact path="/activities" component={Activities} />
         <Route exact path="/slides" component={ControlledCarousel} />
         <Route exact path="/week1" component={Week1} />
+        <Route exact path="/week2" component={Week2} />
         <Route exact path="/videos" component={Videos} />
       </BrowserRouter>
       

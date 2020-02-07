@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import Activities from "./Activities";
-import Payments from './Payments';
+// import Payments from './Payments';
 
  const renderActivities = () => {
     return <Activities activity="Console Commands"/>;
@@ -30,6 +30,7 @@ class Header extends Component {
               <Link
                to={"/activities"}
                onClick={renderActivities}
+               style={{ paddingRight: '1em'}}
                >
                  Curriculum
                  </Link>
@@ -38,10 +39,10 @@ class Header extends Component {
             <li>
               <a href="/api/logout">Logout</a>
             </li>
-            <li><Payments /></li>
+            {/* <li><Payments /></li>
             <li>
               Credits: {this.props.auth.credits}
-            </li>
+            </li> */}
           </ul>
         );
     }
@@ -56,6 +57,7 @@ class Header extends Component {
           <Link
             to={"/"}
             className="left brand-logo"
+            style={{ paddingLeft: '1em'}}
           >
             Persevere Code Camp
           </Link>

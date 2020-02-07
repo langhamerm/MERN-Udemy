@@ -2,6 +2,14 @@
     margin: 0 auto !important;
     padding: 0 auto !important;
 }
+
+.collapse,
+iframe,
+img,
+.jumbotron {
+    width: 100% !important;
+    position: relative !important;
+}
 /* 
 .btn-link {
     width: 16em;
@@ -14,19 +22,17 @@ nav {
     margin-bottom: 3em !important;
 }
 .accordion {
-    margin: 0 -10em !important;
+    margin-top: 7% !important;
 }
 .card {
   width: 100% !important;
-  /* margin: 0 25% !important; */
-  display: flex !important;
-  /* position: relative !important; */
-  flex-direction: column !important;
+  margin: .5rem 0 1rem 0 !important;
+ 
 }
-.card-deck {
-    width: 50% !important;
-    position: absolute !important;
-    left: -3em !important;
+
+h4 {
+    font-size: 1.5em !important;
+    /* padding-bottom: 5em !important; */
 }
 
 span.badge {
@@ -38,23 +44,25 @@ iframe {
     text-align: center !important;
 }
 .card-body {
-    width: 110% !important;
-    margin-right: 25% !important;
-    position: relative !important;
-    right: 5px;
+    width: 100% !important;
+    /* margin-right: 25% !important; */
+    /* position: relative !important; */
+    
 }
 .card-header,
 .card-header .btn {
     padding: 0 !important;
     width: 100% !important;
-    height: 4em !important;
+    /* height: 100% !important; */
     background-color: white !important;
+    font-size: 1.5em;
+    text-transform: none;
 }
 .list-group-item {
-    position: relative;
-    width: 125% !important;
+    /* position: relative; */
+    width: 100% !important;
     text-align: center !important;
-    right: 2.5em !important;
+    /* right: 2.5em !important; */
 }
 .primary {
     width: 4em !important;
@@ -63,14 +71,16 @@ nav a {
     float: right;
 }
 
-#ex-title {
+/* #ex-title {
     font-size: 3em !important;
     padding-bottom: 1em;
-}
+} */
 
 .jumbotron {
-    padding: 0 !important;
+    padding: 0 0 2em 0 !important;
     margin-bottom: 2em !important;
+    /* width: 75%; */
+    height: 100% !important;
 }
 
 #demo {

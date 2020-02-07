@@ -1,22 +1,23 @@
 import React from "react";
 // import { Link } from "react-router-dom";
-import { Row, Container } from "./Grid";
-import { List, ListItem } from "./List";
-import { TextArea, FormBtn } from "./Form";
-import Jumbotron from "./Jumbotron";
-
-const WEEK1_2 = () => {
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import { List, ListItem } from "../List";
+import { TextArea, FormBtn } from "../Form";
+import Jumbotron from "../Jumbotron";
+import Codepen from '../Codepen';
+const WEEK_1_2 = () => {
   return (
-    <Container>
+    <div>
       <Jumbotron>
         <h1 id="ex-title">Instructions:</h1>
         <br></br>
-        <p>
+        <p style={{ fontSize: '2em'}}>
           In a new HTML file, create the basic structure of an HTML document and
           include the following in it:
         </p>
       </Jumbotron>
-      <Row>
+    {/* <Row> */}
         <List>
           <ListItem>DOCTYPE declaration</ListItem>
           <ListItem>Head tag with a title tag</ListItem>
@@ -33,8 +34,8 @@ const WEEK1_2 = () => {
           </ListItem>
           <ListItem></ListItem>
         </List>
-      </Row>
-      <Row>
+      {/* </Row> */}
+      {/* <Row> */}
         <h1 id="ex-title">BONUS</h1>
         <List>
           <ListItem>
@@ -54,13 +55,12 @@ const WEEK1_2 = () => {
             Embed a Youtube video of your favorite band/musician.
           </ListItem>
         </List>
-      </Row>
+      {/* </Row> */}
 
-      <Row>
-        <TextArea />
-        <FormBtn type="submit" value="Submit" />
-      </Row>
-    </Container>
-  );
+      {/* <Row> */}
+      <Codepen src={"https://codepen.io/langhamerm/embed/MWwWxwO?height=265&theme-id=dark&default-tab=html,result&editable=true"}/>
+      {/* </Row> */}
+    </div>
+     );
 };
-export default WEEK1_2;
+export default WEEK_1_2;

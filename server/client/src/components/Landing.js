@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { connect } from "react-redux";
 // import { Link } from "react-router-dom";
-import logo from './logo.png'; // Tell Webpack this JS file uses this image;
+import logo from '../images/logo.png'; // Tell Webpack this JS file uses this image;
 
 class Landing extends Component {
   renderContent() {

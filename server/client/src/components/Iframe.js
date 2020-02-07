@@ -21,6 +21,7 @@ function Iframe(props) {
  
     )
   }
+  
 
 // export default Iframe;
 function mapStateToProps({ auth }) {

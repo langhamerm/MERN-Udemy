@@ -9,12 +9,12 @@ const WEEK1_2 = () => {
   return (
     <Container>
       <Jumbotron>
-        <h1>Instructions:</h1>
+        <h1 id="ex-title">Instructions:</h1>
+        <br></br>
         <p>
           In a new HTML file, create the basic structure of an HTML document and
           include the following in it:
         </p>
-        <p>Submit your code in the TextArea below</p>
       </Jumbotron>
       <Row>
         <List>
@@ -22,7 +22,7 @@ const WEEK1_2 = () => {
           <ListItem>Head tag with a title tag</ListItem>
           <ListItem>H1 tag with a title of your choice</ListItem>
           <ListItem>Embed an image</ListItem>
-          <h3>Create the following three links on your page:</h3>
+          <h5>Create the following three links on your page:</h5>
           <ListItem>
             One link that is `target="_blank"` so that it opens a new tab when
             clicked on.
@@ -35,7 +35,7 @@ const WEEK1_2 = () => {
         </List>
       </Row>
       <Row>
-        <h2>BONUS</h2>
+        <h1 id="ex-title">BONUS</h1>
         <List>
           <ListItem>
             Create an ordered list of steps to make a sandwich.

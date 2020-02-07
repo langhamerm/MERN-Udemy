@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import { BrowserRouter, Route } from "react-router-dom";
 import { connect } from "react-redux";
 import * as actions from "../actions";
-import Exercises from '../pages/Exercises';
+import Week1 from '../pages/Week1';
 import Header from "./Header";
 import Landing from "./Landing";
 import Activities from "./Activities";
@@ -24,11 +24,11 @@ class App extends Component {
   
         <Header />
   
-        {/* <Exercises /> */}
+
         <Route exact path="/" component={Landing} />
         <Route exact path="/activities" component={Activities} />
         <Route exact path="/slides" component={ControlledCarousel} />
-        <Route exact path="/exercises" component={Exercises} />
+        <Route exact path="/week1" component={Week1} />
         <Route exact path="/videos" component={Videos} />
       </BrowserRouter>
       

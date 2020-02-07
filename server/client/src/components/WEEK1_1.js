@@ -10,11 +10,11 @@ class WEEK1_1 extends React.Component {
     return (
       <Container>
         <Jumbotron>
-          <h1>Bash / Terminal Commands</h1>
-          <h3>
+          <h1 id="ex-title">Bash / Terminal Commands</h1>
+          <p>
             These are the basic commands for navigating directories in a
             Terminal or Git Bash window
-          </h3>
+          </p>
         </Jumbotron>
         <Row>
           <List>

@@ -12,7 +12,7 @@ import Iframe from "./Iframe";
 // import Decks from "./Decks";
 // import Badge from "react-bootstrap/Badge";
 import Container from "react-bootstrap/Container";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 class Videos extends Component {
   render(props) {

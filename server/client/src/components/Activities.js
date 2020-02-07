@@ -18,7 +18,7 @@ import { Link } from "react-router-dom";
 // }
 
 class Activities extends Component {
-  render(props) {
+  render() {
     // console.log(this.props);
 
     return (
@@ -28,7 +28,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="0">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="0">
                     Week 1
                   </Accordion.Toggle>
                 </Card.Header>
@@ -42,7 +42,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -69,7 +69,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="1">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="1">
                     Week 2
                   </Accordion.Toggle>
                 </Card.Header>
@@ -83,7 +83,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -110,7 +110,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="2">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="2">
                     Week 3
                   </Accordion.Toggle>
                 </Card.Header>
@@ -124,7 +124,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -154,7 +154,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="7">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="7">
                     Week 4
                   </Accordion.Toggle>
                 </Card.Header>
@@ -168,7 +168,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -196,7 +196,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="3">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="3">
                     Week 5
                   </Accordion.Toggle>
                 </Card.Header>
@@ -210,7 +210,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -237,7 +237,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="4">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="4">
                     Week 6
                   </Accordion.Toggle>
                 </Card.Header>
@@ -251,7 +251,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -280,7 +280,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="5">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="5">
                     Week 7
                   </Accordion.Toggle>
                 </Card.Header>
@@ -294,7 +294,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -321,7 +321,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="6">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="6">
                     Week 8
                   </Accordion.Toggle>
                 </Card.Header>
@@ -335,7 +335,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -363,7 +363,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="9">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="9">
                     Week 9
                   </Accordion.Toggle>
                 </Card.Header>
@@ -377,7 +377,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -406,7 +406,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="10">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="10">
                     Week 10
                   </Accordion.Toggle>
                 </Card.Header>
@@ -420,7 +420,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -447,7 +447,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="11">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="11">
                     Week 11
                   </Accordion.Toggle>
                 </Card.Header>
@@ -461,7 +461,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -488,7 +488,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="12">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="12">
                     Week 12
                   </Accordion.Toggle>
                 </Card.Header>
@@ -502,7 +502,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -531,7 +531,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="13">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="13">
                     Week 13
                   </Accordion.Toggle>
                 </Card.Header>
@@ -545,7 +545,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -572,7 +572,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="14">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="14">
                     Week 14
                   </Accordion.Toggle>
                 </Card.Header>
@@ -586,7 +586,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -613,7 +613,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="15">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="15">
                     Week 15
                   </Accordion.Toggle>
                 </Card.Header>
@@ -627,7 +627,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -656,7 +656,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="16">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="16">
                     Week 16
                   </Accordion.Toggle>
                 </Card.Header>
@@ -670,7 +670,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -698,7 +698,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="17">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="17">
                     Week 17
                   </Accordion.Toggle>
                 </Card.Header>
@@ -712,7 +712,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -739,7 +739,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="18">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="18">
                     Week 18
                   </Accordion.Toggle>
                 </Card.Header>
@@ -753,7 +753,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -782,7 +782,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="19">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="19">
                     Week 19
                   </Accordion.Toggle>
                 </Card.Header>
@@ -796,7 +796,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -823,7 +823,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="20">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="20">
                     Week 20
                   </Accordion.Toggle>
                 </Card.Header>
@@ -837,7 +837,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -865,7 +865,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="21">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="21">
                     Week 21
                   </Accordion.Toggle>
                 </Card.Header>
@@ -879,7 +879,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -908,7 +908,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="22">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="22">
                     Week 22
                   </Accordion.Toggle>
                 </Card.Header>
@@ -922,7 +922,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -949,7 +949,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="23">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="23">
                     Week 23
                   </Accordion.Toggle>
                 </Card.Header>
@@ -963,7 +963,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>
@@ -990,7 +990,7 @@ class Activities extends Component {
             <Col>
               <Card>
                 <Card.Header>
-                  <Accordion.Toggle as={Button} variant="link" eventKey="24">
+                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="24">
                     Week 24
                   </Accordion.Toggle>
                 </Card.Header>
@@ -1004,7 +1004,7 @@ class Activities extends Component {
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
-                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/activities/01-week">
+                          <a href="/week1">
                             Exercises
                           </a>
                         </h4>

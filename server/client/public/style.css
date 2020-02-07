@@ -2,18 +2,23 @@
     margin: 0 auto !important;
     padding: 0 auto !important;
 }
-
+/* 
 .btn-link {
     width: 16em;
-}
-
+} */
+/* .card-header:first-child {
+    margin-top: 3em !important;
+} */
 nav {
     overflow: auto;
+    margin-bottom: 3em !important;
 }
-
+.accordion {
+    margin: 0 -10em !important;
+}
 .card {
-  width: 95% !important;
-  padding-bottom: 10% !important;
+  width: 100% !important;
+  /* margin: 0 25% !important; */
   display: flex !important;
   /* position: relative !important; */
   flex-direction: column !important;
@@ -38,8 +43,12 @@ iframe {
     position: relative !important;
     right: 5px;
 }
-.card-header {
+.card-header,
+.card-header .btn {
     padding: 0 !important;
+    width: 100% !important;
+    height: 4em !important;
+    background-color: white !important;
 }
 .list-group-item {
     position: relative;
@@ -52,4 +61,18 @@ iframe {
 }
 nav a {
     float: right;
+}
+
+#ex-title {
+    font-size: 3em !important;
+    padding-bottom: 1em;
+}
+
+.jumbotron {
+    padding: 0 !important;
+    margin-bottom: 2em !important;
+}
+
+#demo {
+    width: 75%;
 }

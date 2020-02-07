@@ -20,7 +20,7 @@ const WEEK_1_3 = () => {
        <p style={{ fontSize: '2em'}}>Make it look like this picture!</p>
       </Jumbotron>
      
-      <img id="demo" src={demo}></img>
+      <img id="demo" src={demo} alt={"persevere"}/>
     <Codepen src={"https://codepen.io/langhamerm/embed/MWwWxwO?height=265&theme-id=dark&default-tab=html,result&editable=true"}/>
     </div>
   );

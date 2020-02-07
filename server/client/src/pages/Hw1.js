@@ -15,19 +15,19 @@ class Hw1 extends Component {
      <Container>
            <Row>
             <Col>
-              <img style={{ width: "100%", height: "100%" }} src={about}></img>
+              <img style={{ width: "100%", height: "100%" }} src={about} alt={"hey"}/>
             </Col>
             <Col>
               <img
                 style={{ width: "100%", height: "100%" }}
                 src={contact}
-              ></img>
+                alt={"hey"} />
             </Col>
             <Col>
               <img
                 style={{ width: "100%", height: "100%" }}
                 src={gallery}
-              ></img>
+                alt={"hey"} />
             </Col>
           </Row> 
         </Container>

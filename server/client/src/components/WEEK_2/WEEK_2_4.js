@@ -25,7 +25,7 @@ const WEEK_2_4 = () => {
         </ul>
       </Jumbotron>
 
-      <img id="demo" src={pseudo}></img>
+      <img id="demo" src={pseudo} alt={"persevere"} />
       <Codepen
         src={"https://codepen.io/langhamerm/embed/oNXNRyM?height=265&theme-id=dark&default-tab=css,result&editable=true"}
       />

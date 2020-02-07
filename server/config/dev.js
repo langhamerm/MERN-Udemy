@@ -5,5 +5,7 @@ module.exports = {
     // mongoURI: 'mongodb://heroku_d80pr2l4:msl7993@ds041208.mlab.com:41208/heroku_d80pr2l4',
     cookieKey: 'wafflehouse',
     stripePublishableKey: 'pk_test_Lpj9NHCd5TZgVNzIGq4UY54S00h9D0iWHI',
-    stripeSecretKey: 'sk_test_16dBkPZzvCHV19U5eYiCPgMy00HwgMH1hu'
+    stripeSecretKey: 'sk_test_16dBkPZzvCHV19U5eYiCPgMy00HwgMH1hu',
+    sendGridKey: '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',
+    redirectDomain: 'http://localhost:3000'
 };

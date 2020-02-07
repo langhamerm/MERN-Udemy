@@ -10,6 +10,8 @@ import Activities from "./Activities";
 import ControlledCarousel from "./ControlledCarousel";
 import Videos from './Videos';
 import Hw1 from '../pages/Hw1';
+import Dashboard from './Dashboard';
+import SurveyNew from './surveys/SurveyNew';
 // const Dashboard = () => <h2>Dashboard</h2>;
 // const SurveyNew = () => <h2>SurveyNew</h2>;
 // import Container from "react-bootstrap/Container";
@@ -27,6 +29,8 @@ class App extends Component {
   
 
         <Route exact path="/" component={Landing} />
+        <Route exact path="/surveys" component={Dashboard} />
+            <Route path="/surveys/new" component={SurveyNew} />
         <Route exact path="/activities" component={Activities} />
         <Route exact path="/slides" component={ControlledCarousel} />
         <Route exact path="/week1" component={Week1} />

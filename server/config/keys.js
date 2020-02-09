@@ -8,11 +8,6 @@ else {
 
 
 /* PRODUCTION DB
-
 pw: TZx0iruavxlYhX1J
-
 mongodb+srv://msl:TZx0iruavxlYhX1J@cluster0-2jjk4.mongodb.net/test?retryWrites=true&w=majority
-
-
-
 */

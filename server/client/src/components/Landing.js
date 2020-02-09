@@ -4,7 +4,6 @@ import { connect } from "react-redux";
 import logo from '../images/logo.png'; // Tell Webpack this JS file uses this image;
 
 class Landing extends Component {
-  
   renderContent() {
     switch (this.props.auth) {
       case null:
@@ -12,7 +11,6 @@ class Landing extends Component {
       case false:
         return <h1>Please Login</h1>;
       default:
-        console.log(this.props);
     return <h1
     style={{ 
       textAlign: 'center'
@@ -24,7 +22,7 @@ class Landing extends Component {
 
   render() {
     
- 
+    console.log(this.props);
  
     return (
       <div className="container">

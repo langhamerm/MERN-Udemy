@@ -1,21 +1,40 @@
 import React, { Component } from "react";
 // import { Input } from "../components/Form";
-import WEEK_1_1 from "../components/WEEK_1/WEEK_1_1";
-import WEEK_1_2 from "../components/WEEK_1/WEEK_1_2";
-import WEEK_1_3 from "../components/WEEK_1/WEEK_1_3";
-import WEEK_1_4 from "../components/WEEK_1/WEEK_1_4";
-import WEEK_1_5 from "../components/WEEK_1/WEEK_1_5";
-import WEEK_1_6 from "../components/WEEK_1/WEEK_1_6";
+import HTML0 from "../components/HTML/HTML0";
+import HTML1 from "../components/HTML/HTML1";
+import HTML2 from "../components/HTML/HTML2";
+import HTML3 from "../components/HTML/HTML3";
+import HTML4 from "../components/HTML/HTML4";
+// import HTML5 from "../components/HTML/HTML5";
+// import HTML6 from "../components/HTML/HTML6";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import Container from "react-bootstrap/Container";
 import "materialize-css/dist/css/materialize.min.css";
-class Week1 extends Component {
+class HTML extends Component {
   render() {
     return (
       <Container>
         <Accordion>
+        <Card style={{ textAlign: "center" }}>
+            <Card.Header className='cyan accent-3'>
+              <Accordion.Toggle
+                className="cyan accent-3"
+                as={Button}
+                variant="link"
+                eventKey="-1"
+                style={{ width: "100%", height: "3em", padding: '0 !important' }}
+              >
+                <h4>00. Getting Started</h4>
+              </Accordion.Toggle>
+            </Card.Header>
+            <Accordion.Collapse eventKey="-1">
+              <Card.Body>
+                <HTML0 />
+              </Card.Body>
+            </Accordion.Collapse>
+          </Card>
           <Card style={{ textAlign: "center" }}>
             <Card.Header className='cyan accent-3'>
               <Accordion.Toggle
@@ -25,12 +44,12 @@ class Week1 extends Component {
                 eventKey="0"
                 style={{ width: "100%", height: "3em", padding: '0 !important' }}
               >
-                <h4>01. Console Commands</h4>
+                <h4>01. My First HTML</h4>
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="0">
               <Card.Body>
-                <WEEK_1_1 />
+                <HTML1 />
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -43,12 +62,12 @@ class Week1 extends Component {
                 eventKey="1"
                 style={{ width: "100%", height: "3em", padding: '0 !important' }}
               >
-                <h4>02. My First HTML</h4>
+                <h4>02. HTML Bio</h4>
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="1">
               <Card.Body>
-                <WEEK_1_2 />
+                <HTML2 />
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -61,12 +80,12 @@ class Week1 extends Component {
                 eventKey="2"
                 style={{ width: "100%", height: "3em", padding: '0 !important' }}
               >
-                <h4>03. HTML_Git</h4>
+                <h4>03. Forms</h4>
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="2">
               <Card.Body>
-                <WEEK_1_3 />
+                <HTML3 />
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -79,12 +98,12 @@ class Week1 extends Component {
                 eventKey="3"
                 style={{ width: "100%", height: "3em", padding: '0 !important' }}
               >
-                <h4>04. HTML_CSS_Layout</h4>
+                <h4>04. Attributes</h4>
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="3">
               <Card.Body>
-                <WEEK_1_4 />
+                <HTML4 />
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -102,7 +121,7 @@ class Week1 extends Component {
             </Card.Header>
             <Accordion.Collapse eventKey="4">
               <Card.Body>
-                <WEEK_1_5 />
+                {/* <HTML5 /> */}
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -120,7 +139,7 @@ class Week1 extends Component {
             </Card.Header>
             <Accordion.Collapse eventKey="5">
               <Card.Body>
-                <WEEK_1_6 />
+                {/* <HTML6 /> */}
               </Card.Body>
             </Accordion.Collapse>
           </Card>
@@ -138,10 +157,10 @@ class Week1 extends Component {
 
     // switch(week) {
     //   case 1:
-    //     week = <WEEK_1_1 />;
+    //     week = <HTML1 />;
     //     break;
     //     case 2:
-    //       week = <WEEK_1_2 />;
+    //       week = <HTML2 />;
     //       break;
     //     default:
     //       console.log(week);
@@ -149,4 +168,4 @@ class Week1 extends Component {
   }
   // week = week.value();
 }
-export default Week1;
+export default HTML;

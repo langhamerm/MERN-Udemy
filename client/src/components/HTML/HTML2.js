@@ -6,7 +6,7 @@ import React from "react";
 import Jumbotron from "../Jumbotron";
 import Codepen from '../Codepen';
 import demo from "../../images/demo.png";
-const WEEK_1_3 = () => {
+const HTML2 = () => {
   return (
     <div>
   
@@ -25,4 +25,4 @@ const WEEK_1_3 = () => {
     </div>
   );
 };
-export default WEEK_1_3;
+export default HTML2;

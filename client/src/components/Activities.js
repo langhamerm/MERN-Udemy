@@ -29,21 +29,17 @@ class Activities extends Component {
               <Card>
                 <Card.Header className='cyan accent-3'>
                   <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="0">
-                    Week 1
+                    Git
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="0">
                   <Card.Body>
                     <ListGroup>
+
                       <ListGroup.Item>
                         <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <h4>
-                          <a href="/week1">
-                            Exercises
+                          <a href="/git">
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -70,21 +66,17 @@ class Activities extends Component {
               <Card>
                 <Card.Header className='cyan accent-3'>
                   <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="1">
-                    Week 2
+                    HTML
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">
                   <Card.Body>
                     <ListGroup>
+
                       <ListGroup.Item>
                         <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <h4>
-                          <a href="/week2">
-                            Exercises
+                          <a href="/HTML">
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -117,15 +109,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="2">
                   <Card.Body>
                     <ListGroup>
+
                       <ListGroup.Item>
                         <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
-                      <ListGroup.Item>
-                        <h4>
-                          <a href="/week1">
-                            Exercises
+                          <a href="/week3">
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -161,15 +149,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="7">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -203,15 +187,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="3">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -244,15 +224,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="4">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -287,15 +263,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="5">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -328,15 +300,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="6">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -370,15 +338,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="9">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -413,15 +377,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="10">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -454,15 +414,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="11">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -495,15 +451,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="12">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -538,15 +490,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="13">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -579,15 +527,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="14">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -620,15 +564,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="15">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -663,15 +603,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="16">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -705,15 +641,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="17">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -746,15 +678,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="18">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -789,15 +717,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="19">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -830,15 +754,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="20">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -872,15 +792,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="21">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -915,15 +831,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="22">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -956,15 +868,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="23">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>
@@ -997,15 +905,11 @@ class Activities extends Component {
                 <Accordion.Collapse eventKey="24">
                   <Card.Body>
                     <ListGroup>
-                      <ListGroup.Item>
-                        <h4>
-                          <Link to="/videos">Videos</Link>
-                        </h4>
-                      </ListGroup.Item>
+
                       <ListGroup.Item>
                         <h4>
                           <a href="/week1">
-                            Exercises
+                            Activities
                           </a>
                         </h4>
                       </ListGroup.Item>

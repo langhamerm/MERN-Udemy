@@ -5,7 +5,7 @@ import HTML1 from "../components/HTML/HTML1";
 import HTML2 from "../components/HTML/HTML2";
 import HTML3 from "../components/HTML/HTML3";
 import HTML4 from "../components/HTML/HTML4";
-// import HTML5 from "../components/HTML/HTML5";
+import HTML5 from "../components/HTML/HTML5";
 // import HTML6 from "../components/HTML/HTML6";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
@@ -116,33 +116,16 @@ class HTML extends Component {
                 eventKey="4"
                 style={{ width: "100%", height: "3em", padding: '0 !important' }}
               >
-                <h4>05. Don't Be a Floater</h4>
+                <h4>05. HTML5</h4>
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="4">
               <Card.Body>
-                {/* <HTML5 /> */}
+                <HTML5 />
               </Card.Body>
             </Accordion.Collapse>
           </Card>
-          <Card style={{ textAlign: "center" }}>
-             <Card.Header className='cyan accent-3'>
-              <Accordion.Toggle
-                className="cyan accent-3"
-                as={Button}
-                variant="link"
-                eventKey="5"
-                style={{ width: "100%", height: "3em", padding: '0 !important' }}
-              >
-                <h4>06. Positioning</h4>
-              </Accordion.Toggle>
-            </Card.Header>
-            <Accordion.Collapse eventKey="5">
-              <Card.Body>
-                {/* <HTML6 /> */}
-              </Card.Body>
-            </Accordion.Collapse>
-          </Card>
+
         </Accordion>
       </Container>
     );

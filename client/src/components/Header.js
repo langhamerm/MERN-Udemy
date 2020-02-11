@@ -2,17 +2,13 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { Link } from "react-router-dom";
 import Activities from "./Activities";
+// import Jumbotron from './Jumbotron';
 // import Payments from './Payments';
-
- const renderActivities = () => {
-    return <Activities activity="Console Commands"/>;
-    
-  }
+const renderActivities = () => {
+  return <Activities activity="Console Commands" />;
+};
 
 class Header extends Component {
-
-  
-
   renderContent() {
     switch (this.props.auth) {
       case null:
@@ -20,22 +16,26 @@ class Header extends Component {
       case false:
         return (
           <li>
-            <a id="pcc" href="/auth/google">Login With Google</a>
+            <a id="pcc" href="/auth/google">
+              Login With Google
+            </a>
           </li>
         );
       default:
+
         return (
+
           <ul id="nav-mobile" className="right">
             <li>
               <Link
-               to={"/activities"}
-               onClick={renderActivities}
-               style={{ paddingRight: '1em'}}
-               >
-                 Curriculum
-                 </Link>
+                to={"/activities"}
+                onClick={renderActivities}
+                style={{ paddingRight: "1em" }}
+              >
+                Curriculum
+              </Link>
             </li>
-            
+
             <li>
               <a href="/api/logout">Logout</a>
             </li>
@@ -49,7 +49,7 @@ class Header extends Component {
   }
 
   render() {
-    console.log(this.props);
+    // console.log(this.props);
 
     return (
       <nav className="cyan accent-3">
@@ -57,7 +57,7 @@ class Header extends Component {
           <Link
             to={"/"}
             className="left brand-logo"
-            style={{ paddingLeft: '1em'}}
+            style={{ paddingLeft: "1em" }}
           >
             Persevere Code Camp
           </Link>

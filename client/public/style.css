@@ -18,7 +18,7 @@ img,
     margin-top: 3em !important;
 } */
 nav {
-    overflow: auto;
+    overflow: hidden;
     margin-bottom: 3em !important;
 }
 .accordion {
@@ -43,6 +43,9 @@ span.badge {
 iframe {
     text-align: center !important;
 }
+/* #frame {
+    transform: scale(2, 2);
+} */
 .card-body {
     width: 100% !important;
     /* margin-right: 25% !important; */
@@ -94,4 +97,13 @@ nav a {
         height: 100% !important;
         position: initial !important;
 
+}
+
+.progress {
+    position: relative;
+    height: 100% !important;
+}
+.progress-bar {
+    font-size: 4em;
+    height: 1em !important;
 }

@@ -11,6 +11,7 @@ const userSchema = new Schema({
     type: Number,
     default: 0
   },
+  progress: Number,
   activities: {
     week_1: {
       github_url: String,

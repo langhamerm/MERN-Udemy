@@ -13,16 +13,30 @@ import ListGroup from "react-bootstrap/ListGroup";
 // import Decks from "./Decks";
 // import Badge from "react-bootstrap/Badge";
 import { Link } from "react-router-dom";
+import Jumbotron from "./Jumbotron";
+import ProgressBar from "react-bootstrap/ProgressBar";
 // function slideSend() {
 //   window.location.href = "/slides";
 // }
 
 class Activities extends Component {
+  // renderProgress() {
+   
+  //   // return now;
+  // }
+  
   render() {
     // console.log(this.props);
-
+    const now = this.props.auth.progress;
+    console.log(parseInt(now));
+    
+    
     return (
       <Container>
+        <Row>
+          
+        <ProgressBar animated striped variant="info" now={now} label={`${now}%`} />
+        </Row>
         <Accordion>
           <Row>
             <Col>

@@ -8,8 +8,9 @@ import { connect } from "react-redux";
 function Codepen(props) {
   return (
     <iframe
-      height="500"
-      style={{width: '75%'}}
+      id="frame"
+      height="1000"
+      style={{width: '100%'}}
       scrolling="yes"
       title="HTML_CSS_Layout"
       src={props.src}

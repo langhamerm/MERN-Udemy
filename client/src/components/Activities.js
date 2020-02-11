@@ -27,7 +27,7 @@ class Activities extends Component {
   
   render() {
     // console.log(this.props);
-    const now = this.props.auth.progress;
+    const now = this.props.auth.progress.total;
     console.log(parseInt(now));
     
     

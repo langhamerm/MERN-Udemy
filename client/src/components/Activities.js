@@ -15,47 +15,72 @@ import ListGroup from "react-bootstrap/ListGroup";
 import { Link } from "react-router-dom";
 import Jumbotron from "./Jumbotron";
 import ProgressBar from "react-bootstrap/ProgressBar";
-// function slideSend() {
+
+// function slidedone() {
 //   window.location.href = "/slides";
 // }
+// function addProgress(a) {
+//   a = a++;
+// return
+//   console.log(a);
+// }
+// function addNow() {
 
+// }
+
+
+let now = 0;
 class Activities extends Component {
-  // renderProgress() {
-   
-  //   // return now;
-  // }
-  
   render() {
-    // console.log(this.props);
-    const now = this.props.auth.progress.total;
-    console.log(parseInt(now));
-    
-    
+    console.log(this.props);
+    function UpNow() {
+      let now = 0;
+      if (now < 14) {
+        now++;
+        return now;
+        console.log(now);
+        // return now;
+      } else {
+        console.log("DONE");
+        return now;
+      }
+    }
+    // }
+
     return (
       <Container>
         <Row>
-          
-        <ProgressBar animated striped variant="info" now={now} label={`${now}%`} />
+          <ProgressBar
+            animated
+            striped
+            variant="info"
+            now={now}
+            label={`${now}%`}
+          />
         </Row>
         <Accordion>
           <Row>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="0">
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="0"
+                  >
                     Git
                   </Accordion.Toggle>
                 </Card.Header>
+
                 <Accordion.Collapse eventKey="0">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/git">
-                            Activities
-                          </a>
+                          <a href="/git">Activities</a>
                         </h4>
+
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
@@ -63,6 +88,7 @@ class Activities extends Component {
                             Homework
                           </a>
                         </h4>
+
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
@@ -78,21 +104,24 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="1">
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="1"
+                  >
                     HTML
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="1">
                   <Card.Body>
                     <ListGroup>
-
-                      <ListGroup.Item>
+                    <ListGroup.Item>
                         <h4>
-                          <a href="/HTML">
-                            Activities
-                          </a>
+                          <a href="/html">Activities</a>
                         </h4>
+
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
@@ -100,6 +129,7 @@ class Activities extends Component {
                             Homework
                           </a>
                         </h4>
+
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
@@ -115,21 +145,24 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="2">
-                    Week 3
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="2"
+                  >
+                    CSS
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="2">
                   <Card.Body>
                     <ListGroup>
-
-                      <ListGroup.Item>
+                    <ListGroup.Item>
                         <h4>
-                          <a href="/week3">
-                            Activities
-                          </a>
+                          <a href="/css">Activities</a>
                         </h4>
+
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
@@ -137,6 +170,7 @@ class Activities extends Component {
                             Homework
                           </a>
                         </h4>
+
                       </ListGroup.Item>
                       <ListGroup.Item>
                         <h4>
@@ -155,20 +189,22 @@ class Activities extends Component {
           <Row>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="7">
-                    Week 4
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="7"
+                  >
+                    Bootstrap
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="7">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -193,20 +229,22 @@ class Activities extends Component {
 
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="3">
-                    Week 5
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="3"
+                  >
+                    Javascript
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="3">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -230,20 +268,22 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="4">
-                    Week 6
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="4"
+                  >
+                    JQuery
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="4">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -269,20 +309,22 @@ class Activities extends Component {
           <Row>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="5">
-                    Week 7
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="5"
+                  >
+                    AJAX/API
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="5">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -306,20 +348,22 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="6">
-                    Week 8
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="6"
+                  >
+                    Firebase
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="6">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -344,20 +388,22 @@ class Activities extends Component {
 
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="9">
-                    Week 9
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="9"
+                  >
+                    Captone Project 1
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="9">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -383,20 +429,22 @@ class Activities extends Component {
           <Row>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="10">
-                    Week 10
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="10"
+                  >
+                    Node.js
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="10">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -420,20 +468,22 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="11">
-                    Week 11
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="11"
+                  >
+                    SQL
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="11">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -457,20 +507,22 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="12">
-                    Week 12
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="12"
+                  >
+                    Servers
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="12">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -496,20 +548,22 @@ class Activities extends Component {
           <Row>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="13">
-                    Week 13
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="13"
+                  >
+                    Express.js
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="13">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -533,20 +587,22 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="14">
-                    Week 14
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="14"
+                  >
+                    Full Stack 101
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="14">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -570,20 +626,22 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="15">
-                    Week 15
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="15"
+                  >
+                    Fuller Stack
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="15">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -609,20 +667,22 @@ class Activities extends Component {
           <Row>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="16">
-                    Week 16
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="16"
+                  >
+                    
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="16">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -647,20 +707,22 @@ class Activities extends Component {
 
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="17">
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="17"
+                  >
                     Week 17
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="17">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -684,20 +746,22 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="18">
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="18"
+                  >
                     Week 18
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="18">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -723,20 +787,22 @@ class Activities extends Component {
           <Row>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="19">
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="19"
+                  >
                     Week 19
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="19">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -760,20 +826,22 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="20">
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="20"
+                  >
                     Week 20
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="20">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -798,20 +866,22 @@ class Activities extends Component {
 
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="21">
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="21"
+                  >
                     Week 21
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="21">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -837,20 +907,22 @@ class Activities extends Component {
           <Row>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="22">
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="22"
+                  >
                     Week 22
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="22">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -874,20 +946,22 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="23">
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="23"
+                  >
                     Week 23
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="23">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>
@@ -911,20 +985,22 @@ class Activities extends Component {
             </Col>
             <Col>
               <Card>
-                <Card.Header className='cyan accent-3'>
-                  <Accordion.Toggle className='cyan accent-3' as={Button} variant="link" eventKey="24">
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="24"
+                  >
                     Week 24
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="24">
                   <Card.Body>
                     <ListGroup>
-
                       <ListGroup.Item>
                         <h4>
-                          <a href="/week1">
-                            Activities
-                          </a>
+                          <a href="/week1">Activities</a>
                         </h4>
                       </ListGroup.Item>
                       <ListGroup.Item>

@@ -26,16 +26,119 @@
     -->
     <title>React App</title>
     <link
-  rel="stylesheet"
-  href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
-  crossorigin="anonymous"
-/>
-<link rel="stylesheet" type='text/css' href="style.css">
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+    <!-- <div class="w3-container xw3-light-grey">
+      <div class="w3-row w3-container">
+        <div class="w3-col m2 w3-container w3-center"></div>
+        <div class="w3-col m8 w3-container w3-center">
+          <div
+            id="rgbresult"
+            style="line-height: 80px; background-color: rgb(60, 194, 255);"
+          >
+            <p
+              id="rgbresulttext"
+              style='font-size: 120%; font-weight: bold; font-family: Consolas, "Courier New", Courier, monospace; color: rgb(31, 45, 61);'
+            >
+              rgb(60, 194, 255)
+            </p>
+          </div>
+        </div>
+        <div class="w3-col m2 w3-container w3-center"></div>
+      </div>
+      <div class="w3-row w3-container">
+        <div class="w3-col m4 w3-container w3-center">
+          <p>RED</p>
+          <input
+            onchange=changeRGB()
+            oninput=changeRGB()
+            type="range"
+            id="slideRed"
+            name="slideRed"
+            value="255"
+            min="0"
+            max="255"
+          />
+          <div
+            id="valRed2"
+            xstyle="background-color:red;border-radius:5px;color:white;opacity:0.8"
+          >
+            60
+          </div>
+        </div>
+        <div class="w3-col m4 w3-container w3-center">
+          <p>GREEN</p>
+          <input
+            onchange=changeRGB()
+            oninput=changeRGB()
+            type="range"
+            id="slideGreen"
+            name="slideGreen"
+            value="99"
+            min="0"
+            max="255"
+          />
+          <div
+            id="valGreen2"
+            xstyle="background-color:#00ff00;border-radius:5px;opacity:0.8"
+          >
+            194
+          </div>
+        </div>
+        <div class="w3-col m4 w3-container w3-center">
+          <p>BLUE</p>
+          <input
+            onchange=changeRGB()
+            oninput=changeRGB()
+            type="range"
+            id="slideBlue"
+            name="slideBlue"
+            value="71"
+            min="0"
+            max="255"
+          />
+          <div
+            id="valBlue2"
+            xstyle="background-color:blue;border-radius:5px;color:white;opacity:0.8"
+          >
+            255
+          </div>
+        </div>
+      </div>
+    </div> -->
+    <script src="w3color.js"></script>
+    <script>
+      // function changeRGB(x) {
+      //   var col;
+      //   var r;
+      //   var g;
+      //   var b;
+      //   r = document.getElementById("slideRed").value;
+      //   g = document.getElementById("slideGreen").value;
+      //   b = document.getElementById("slideBlue").value;
+      //   col = w3color("rgb(" + r + "," + g + "," + b + ")");
+      //   document.getElementById("valRed2").innerHTML = r;
+      //   document.getElementById("valGreen2").innerHTML = g;
+      //   document.getElementById("valBlue2").innerHTML = b;
+      //   document.getElementById(
+      //     "rgbresult"
+      //   ).style.backgroundColor = col.toRgbString();
+      //   document.getElementById("rgbresulttext").innerHTML = col.toRgbString();
+      //   if (col.isDark(150)) {
+      //     document.getElementById("rgbresulttext").style.color = "#ffffff";
+      //   } else {
+      //     document.getElementById("rgbresulttext").style.color = "#1f2d3d";
+      //   }
+      // }
+    </script>
     <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -46,18 +149,25 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <script src="https://unpkg.com/react/umd/react.production.min.js" crossorigin />
+    <script
+      src="https://unpkg.com/react/umd/react.production.min.js"
+      crossorigin
+    />
 
-<script
-  src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
-  crossorigin
-/>
+    <script
+      src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"
+      crossorigin
+    />
 
-<script
-  src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
-  crossorigin
-/>
-<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-
+    <script
+      src="https://unpkg.com/react-bootstrap@next/dist/react-bootstrap.min.js"
+      crossorigin
+    />
+    
+    //
+    // <script src="w3.js"></script>
+    // <script src="w3-foot.js"></script>
+   
+    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
   </body>
 </html>

@@ -1,14 +1,14 @@
 * {
-    margin: 0 auto !important;
-    padding: 0 auto !important;
+  margin: 0 auto !important;
+  padding: 0 auto !important;
 }
 
 .collapse,
 iframe,
 img,
 .jumbotron {
-    width: 100% !important;
-    position: relative !important;
+  width: 100% !important;
+  position: relative !important;
 }
 /* 
 .btn-link {
@@ -18,60 +18,60 @@ img,
     margin-top: 3em !important;
 } */
 nav {
-    overflow: hidden;
-    margin-bottom: 3em !important;
+  overflow: hidden;
+  margin-bottom: 3em !important;
 }
 .accordion {
-    margin-top: 7% !important;
+  margin-top: 7% !important;
 }
 .card {
   width: 100% !important;
-  margin: .5rem 0 1rem 0 !important;
- text-align: center;
+  margin: 0.5rem 0 1rem 0 !important;
+  text-align: center;
 }
 
 h4 {
-    font-size: 1.5em !important;
-    /* padding-bottom: 5em !important; */
+  font-size: 1.5em !important;
+  /* padding-bottom: 5em !important; */
 }
 
 span.badge {
-    text-align: center !important;
-    float: none !important;
+  text-align: center !important;
+  float: none !important;
 }
 
 iframe {
-    text-align: center !important;
+  text-align: center !important;
 }
 /* #frame {
     transform: scale(2, 2);
 } */
 .card-body {
-    width: 100% !important;
-    /* margin-right: 25% !important; */
-    /* position: relative !important; */
-    
+  width: 100% !important;
+  /* margin-right: 25% !important; */
+  /* position: relative !important; */
 }
 .card-header,
 .card-header .btn {
-    padding: 0 !important;
-    width: 100% !important;
-    /* height: 100% !important; */
-    background-color: white !important;
-    font-size: 1.5em;
-    text-transform: none;
+  padding: 0 !important;
+  width: 100% !important;
+  /* height: 100% !important; */
+  background-color: white !important;
+  font-size: 1.5em;
+  text-transform: none;
+  border-bottom: 3px solid rgba(0,0,0,.125);
 }
 .list-group-item {
-    /* position: relative; */
-    width: 100% !important;
-    text-align: center !important;
-    /* right: 2.5em !important; */
+  /* position: relative; */
+  width: 100% !important;
+  text-align: center !important;
+  /* right: 2.5em !important; */
 }
 .primary {
-    width: 4em !important;
+  width: 4em !important;
 }
 nav a {
-    float: right;
+  float: right;
 }
 
 /* #ex-title {
@@ -80,10 +80,10 @@ nav a {
 } */
 
 .jumbotron {
-    padding: 0 0 2em 0 !important;
-    margin-bottom: 2em !important;
-    /* width: 75%; */
-    height: 100% !important;
+  padding: 0 0 2em 0 !important;
+  margin-bottom: 2em !important;
+  /* width: 75%; */
+  height: 100% !important;
 }
 
 /* #demo {
@@ -91,19 +91,17 @@ nav a {
 } */
 
 .carousel-item img {
-
-        visibility: visible !important;
-        width: 100% !important;
-        height: 100% !important;
-        position: initial !important;
-
+  visibility: visible !important;
+  width: 100% !important;
+  height: 100% !important;
+  position: initial !important;
 }
 
 .progress {
-    position: relative;
-    height: 100% !important;
+  position: relative;
+  height: 100% !important;
 }
 .progress-bar {
-    font-size: 4em;
-    height: 1em !important;
+  font-size: 4em;
+  height: 1em !important;
 }

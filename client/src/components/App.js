@@ -7,6 +7,7 @@ import * as actions from "../actions";
 // import Week3 from '../pages/Week3';
 import HTML from '../pages/HTML';
 import Git from '../pages/Git';
+import CSS from '../pages/CSS';
 import Header from "./Header";
 import Landing from "./Landing";
 import Activities from "./Activities";
@@ -31,9 +32,11 @@ class App extends Component {
 
         <Route exact path="/" component={Landing} />
         <Route exact path="/activities" component={Activities} />
+        {/* <Route exact path="/activities" component={Activities} /> */}
         <Route exact path="/slides" component={ControlledCarousel} />
         <Route exact path="/git" component={Git} />
         <Route exact path="/html" component={HTML} />
+        <Route exact path="/css" component={CSS} />
         {/* <Route exact path="/week2" component={Week2} />
         <Route exact path="/week3" component={Week3} /> */}
         <Route exact path="/videos" component={Videos} />

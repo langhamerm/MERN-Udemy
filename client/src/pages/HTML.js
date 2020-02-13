@@ -44,7 +44,7 @@ class HTML extends Component {
                 eventKey="0"
                 style={{ width: "100%", height: "3em", padding: '0 !important' }}
               >
-                <h4>01. My First HTML</h4>
+                <h4>01. CSS Syntax</h4>
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="0">
@@ -62,7 +62,7 @@ class HTML extends Component {
                 eventKey="1"
                 style={{ width: "100%", height: "3em", padding: '0 !important' }}
               >
-                <h4>02. HTML Bio</h4>
+                <h4>02. Selectors</h4>
               </Accordion.Toggle>
             </Card.Header>
             <Accordion.Collapse eventKey="1">

@@ -49,7 +49,7 @@ class Activities extends Component {
 
     return (
       <Container>
-        <Row>
+
           <ProgressBar
             animated
             striped
@@ -57,7 +57,7 @@ class Activities extends Component {
             now={now}
             label={`${now}%`}
           />
-        </Row>
+
         <Accordion>
           <Row>
             <Col>
@@ -184,9 +184,89 @@ class Activities extends Component {
                 </Accordion.Collapse>
               </Card>
             </Col>
-          </Row>
+          
 
-          <Row>
+        
+          <Col>
+              <Card>
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="71"
+                  >
+                    Advanced CSS
+                  </Accordion.Toggle>
+                </Card.Header>
+                <Accordion.Collapse eventKey="71">
+                  <Card.Body>
+                    <ListGroup>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="/css2">Activities</a>
+                        </h4>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/homework%20assignments/01-week">
+                            Homework
+                          </a>
+                        </h4>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/lessons/01-week">
+                            Lessons
+                          </a>
+                        </h4>
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+            </Col>
+            </Row>
+            <Row>
+            <Col>
+              <Card>
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="7"
+                  >
+                    Responsive CSS
+                  </Accordion.Toggle>
+                </Card.Header>
+                <Accordion.Collapse eventKey="7">
+                  <Card.Body>
+                    <ListGroup>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="/week1">Activities</a>
+                        </h4>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/homework%20assignments/01-week">
+                            Homework
+                          </a>
+                        </h4>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/lessons/01-week">
+                            Lessons
+                          </a>
+                        </h4>
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+            </Col>
             <Col>
               <Card>
                 <Card.Header className="cyan accent-3">
@@ -266,6 +346,10 @@ class Activities extends Component {
                 </Accordion.Collapse>
               </Card>
             </Col>
+
+
+
+
             <Col>
               <Card>
                 <Card.Header className="cyan accent-3">
@@ -306,6 +390,13 @@ class Activities extends Component {
               </Card>
             </Col>
           </Row>
+
+
+
+
+
+
+
           <Row>
             <Col>
               <Card>
@@ -347,6 +438,45 @@ class Activities extends Component {
               </Card>
             </Col>
             <Col>
+              <Card>
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="6"
+                  >
+                    Firebase
+                  </Accordion.Toggle>
+                </Card.Header>
+                <Accordion.Collapse eventKey="6">
+                  <Card.Body>
+                    <ListGroup>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="/week1">Activities</a>
+                        </h4>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/homework%20assignments/01-week">
+                            Homework
+                          </a>
+                        </h4>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/lessons/01-week">
+                            Lessons
+                          </a>
+                        </h4>
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+            </Col>
+  <Col>
               <Card>
                 <Card.Header className="cyan accent-3">
                   <Accordion.Toggle
@@ -544,8 +674,6 @@ class Activities extends Component {
                 </Accordion.Collapse>
               </Card>
             </Col>
-          </Row>
-          <Row>
             <Col>
               <Card>
                 <Card.Header className="cyan accent-3">
@@ -585,6 +713,9 @@ class Activities extends Component {
                 </Accordion.Collapse>
               </Card>
             </Col>
+          </Row>
+          <Row>
+            
             <Col>
               <Card>
                 <Card.Header className="cyan accent-3">
@@ -663,8 +794,6 @@ class Activities extends Component {
                 </Accordion.Collapse>
               </Card>
             </Col>
-          </Row>
-          <Row>
             <Col>
               <Card>
                 <Card.Header className="cyan accent-3">
@@ -704,7 +833,6 @@ class Activities extends Component {
                 </Accordion.Collapse>
               </Card>
             </Col>
-
             <Col>
               <Card>
                 <Card.Header className="cyan accent-3">
@@ -744,6 +872,8 @@ class Activities extends Component {
                 </Accordion.Collapse>
               </Card>
             </Col>
+          </Row>
+          <Row>
             <Col>
               <Card>
                 <Card.Header className="cyan accent-3">
@@ -783,8 +913,6 @@ class Activities extends Component {
                 </Accordion.Collapse>
               </Card>
             </Col>
-          </Row>
-          <Row>
             <Col>
               <Card>
                 <Card.Header className="cyan accent-3">
@@ -863,7 +991,6 @@ class Activities extends Component {
                 </Accordion.Collapse>
               </Card>
             </Col>
-
             <Col>
               <Card>
                 <Card.Header className="cyan accent-3">
@@ -903,7 +1030,13 @@ class Activities extends Component {
                 </Accordion.Collapse>
               </Card>
             </Col>
+      
           </Row>
+   
+            
+          
+
+            
           <Row>
             <Col>
               <Card>
@@ -957,6 +1090,45 @@ class Activities extends Component {
                   </Accordion.Toggle>
                 </Card.Header>
                 <Accordion.Collapse eventKey="23">
+                  <Card.Body>
+                    <ListGroup>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="/week1">Activities</a>
+                        </h4>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/homework%20assignments/01-week">
+                            Homework
+                          </a>
+                        </h4>
+                      </ListGroup.Item>
+                      <ListGroup.Item>
+                        <h4>
+                          <a href="https://github.com/langhamerm/PersevereCodingCamp/tree/master/lessons/01-week">
+                            Lessons
+                          </a>
+                        </h4>
+                      </ListGroup.Item>
+                    </ListGroup>
+                  </Card.Body>
+                </Accordion.Collapse>
+              </Card>
+            </Col>
+            <Col>
+              <Card>
+                <Card.Header className="cyan accent-3">
+                  <Accordion.Toggle
+                    className="cyan accent-3"
+                    as={Button}
+                    variant="link"
+                    eventKey="24"
+                  >
+                    Week 24
+                  </Accordion.Toggle>
+                </Card.Header>
+                <Accordion.Collapse eventKey="24">
                   <Card.Body>
                     <ListGroup>
                       <ListGroup.Item>

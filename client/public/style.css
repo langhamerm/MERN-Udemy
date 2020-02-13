@@ -47,15 +47,16 @@ iframe {
     transform: scale(2, 2);
 } */
 .card-body {
-  width: 100% !important;
+  width: 80em !important;
   /* margin-right: 25% !important; */
-  /* position: relative !important; */
+  position: relative !important;
+  /* transform: scale(3, 1); */
 }
 .card-header,
 .card-header .btn {
   padding: 0 !important;
   width: 100% !important;
-  /* height: 100% !important; */
+  height: 10vh !important;
   background-color: white !important;
   font-size: 1.5em;
   text-transform: none;
@@ -84,6 +85,7 @@ nav a {
   margin-bottom: 2em !important;
   /* width: 75%; */
   height: 100% !important;
+  margin-top: 5em !important;
 }
 
 /* #demo {

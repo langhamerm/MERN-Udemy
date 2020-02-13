@@ -8,6 +8,7 @@ import * as actions from "../actions";
 import HTML from '../pages/HTML';
 import Git from '../pages/Git';
 import CSS from '../pages/CSS';
+import ACSS from '../pages/ACSS';
 import Header from "./Header";
 import Landing from "./Landing";
 import Activities from "./Activities";
@@ -16,7 +17,7 @@ import Videos from './Videos';
 
 // const Dashboard = () => <h2>Dashboard</h2>;
 // const SurveyNew = () => <h2>SurveyNew</h2>;
-// import Container from "react-bootstrap/Container";
+import Container from "react-bootstrap/Container";
 class App extends Component {
   componentDidMount() {
     this.props.fetchUser();
@@ -26,9 +27,9 @@ class App extends Component {
     return (
       
       <BrowserRouter>
-  
+
         <Header />
-  
+     
 
         <Route exact path="/" component={Landing} />
         <Route exact path="/activities" component={Activities} />
@@ -37,9 +38,11 @@ class App extends Component {
         <Route exact path="/git" component={Git} />
         <Route exact path="/html" component={HTML} />
         <Route exact path="/css" component={CSS} />
+        <Route exact path="/css2" component={ACSS} />
         {/* <Route exact path="/week2" component={Week2} />
         <Route exact path="/week3" component={Week3} /> */}
         <Route exact path="/videos" component={Videos} />
+         
       </BrowserRouter>
       
     );
